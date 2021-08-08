@@ -1,0 +1,68 @@
+body {
+	margin: 10px;
+	border: 1px solid gray;
+}
+
+.main_nav {
+	border: 1px solid black;
+	padding: 5px 5px 0px 5px;
+	margin: 20px 5px 50px 5px;
+}
+
+hr {
+	border-top: 2px solid black;
+	margin: 0px -10px 50px -10px;
+}
+
+nav a {
+	color: white;
+	background-color: black;
+	display: block;
+	text-align: center;
+	margin-bottom: 5px;
+	text-decoration: none;
+	overflow-wrap: anywhere;	
+	line-height: 25px;
+	border: 1px solid black;
+	
+}
+
+@media screen and (min-width:55.5em) {
+	
+	.mainBody {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		column-gap: 10px;
+	}
+
+	.stats {
+		border: 1px solid black;
+		padding: 5px
+	}
+
+	.frogsLayout {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+/*31.2 is what was used in arnolds video but on chrome you 
+cant see the blocked nav only the row nav because the 
+window size cant get that small so please use the mobile view
+when testing.*/
+@media screen and (min-width:31.2em) {
+	.main_nav {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		column-gap: 10px;
+	}
+}
+
+section {
+	margin: 15px;
+}
+
+footer {
+	text-align: center;
+	margin: 3px;
+}
