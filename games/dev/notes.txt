@@ -1,4 +1,4 @@
-./setup.sh webdbuser localhost webdb password
+./setup.sh webdbuser postgres webdb password
 
 # DB_HOST = localhost
 # DB_USER = webdbuser

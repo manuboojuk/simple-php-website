@@ -7,7 +7,7 @@ DB_PASSWORD="$4";
 if [ -z "$DB_USER" ]  || [ -z "$DB_HOST" ] || [ -z "$DB_NAME" ]  || [ -z "$DB_PASSWORD" ];
 then
 	echo "Usage: ./setup.sh DB_USER DB_HOST DB_NAME DB_PASSWORD"
-	echo "Hint: ./setup.sh webdbuser localhost webdb password"
+	echo "Hint: ./setup.sh webdbuser postgres webdb password"
 
 	exit 0
 fi

@@ -1,3 +1,3 @@
 <?php
-        $g_dbconnect_string="host=localhost port=5432 dbname=webdb user=webdbuser password=password";
+        $g_dbconnect_string="host=postgres port=5432 dbname=webdb user=webdbuser password=password";
 ?>

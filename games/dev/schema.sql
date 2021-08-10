@@ -1,4 +1,4 @@
-drop table appuser cascade;
+-- drop table appuser cascade;
 
 create table appuser (
 	userid varchar(50) primary key,
